@@ -12,3 +12,7 @@ spec:
       ref:
         branch: main
       url: https://github.com/andrew-su/scrap-python-func.git
+  build:
+    env:
+    - name: BP_FUNCTION
+      value: func.hello
