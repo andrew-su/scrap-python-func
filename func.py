@@ -1,5 +1,5 @@
 from typing import Any
 
-def hello(event: Any):
+def hello(data: Any, attributes: dict):
     # Your function implementation goes here
-    return "Hello World!"
+    return attributes, 'Hello world!'
